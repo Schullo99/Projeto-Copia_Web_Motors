@@ -7,3 +7,12 @@ CREATE TABLE users (
     username VARCHAR(50) NOT NULL,
     password VARCHAR(255) NOT NULL
 );
+
+CREATE TABLE veiculos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    marca VARCHAR(100),
+    ano INT,
+    quilometragem INT,
+    imagem VARCHAR(255)
+);
